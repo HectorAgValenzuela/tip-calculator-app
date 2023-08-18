@@ -1,27 +1,61 @@
 <template>
   <header>
-
+    <div class="logo-section">
+      splitter
+    </div>
   </header>
 
   <main>
-    Bill
+    <section class="calculator">
+      <article class="calculator__input-article">
+        <h1 class="calculator__title">Bill</h1>
+        <input data-icon="money" type="text">
+      </article>
 
-    Select Tip %
-    5%
-    10%
-    15%
-    25%
-    50%
-    Custom
+      <article class="calculator__select-tip">
+        <h1 class="calculator__title">Select Tip %</h1>
+        <div class="calculator__tips">
+          <button class="tip-element">5%</button>
+          <button class="tip-element">10%</button>
+          <button class="tip-element">15%</button>
+          <button class="tip-element">25%</button>
+          <button class="tip-element">50%</button>
+          <button class="tip-element">Custom</button>
+        </div>
+      </article>
 
-    Number of People
+      <h1 class="calculator__title">Number of People</h1>
+      <input data-icon="people" type="text">
+    </section>
 
-    Tip Amount
-    / person
+    <section class="results">
 
-    Total
-    / person
+      <div class="result__container">
+        <div class="result__text-container">
+          <p class="result__text">
+            Tip Amount
+          </p>
+          <p class="result__per-person">
+            / person
+          </p>
+        </div>
+        <p class="result-result__amount">4.27</p>
+      </div>
 
-    Reset
+      <div class="result-result__container">
+        <div class="result__text-container">
+          <p class="result__text-text">
+            Total
+          </p>
+          <p class="result__per-person">
+            / person
+          </p>
+        </div>
+        <p class="result__amount">4.27</p>
+      </div>
+
+      <button class="reset-button">Reset</button>
+
+    </section>
   </main>
 </template>
