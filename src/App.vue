@@ -30,21 +30,21 @@
 
     <section class="results">
 
-      <div class="result__container">
-        <div class="result__text-container">
-          <p class="result__text">
+      <div class="results__container">
+        <div class="results__text-container">
+          <p class="results__text">
             Tip Amount
           </p>
-          <p class="result__per-person">
+          <p class="results__per-person">
             / person
           </p>
         </div>
-        <p class="result-result__amount">4.27</p>
+        <p class="results__amount">4.27</p>
       </div>
 
-      <div class="result-result__container">
-        <div class="result__text-container">
-          <p class="result__text-text">
+      <div class="results__container">
+        <div class="results__text-container">
+          <p class="results__text">
             Total
           </p>
           <p class="result__per-person">
