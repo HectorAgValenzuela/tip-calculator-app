@@ -22,7 +22,7 @@
           <button class="tip-element">15%</button>
           <button class="tip-element">25%</button>
           <button class="tip-element">50%</button>
-          <button class="custom-element">Custom</button>
+          <button class="input input-tip">Custom</button>
         </div>
       </article>
 

@@ -141,6 +141,10 @@ main {
     color: var(--color-neutral-900);
 }
 
+.input-tip {
+    color: var(--color-neutral-500);
+}
+
 /* ********************************** */
 /* ******* Calculator Section ******* */
 /* ********************************** */
