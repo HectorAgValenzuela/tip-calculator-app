@@ -9,12 +9,12 @@
 
   <main>
     <section class="calculator">
-      <article class="calculator__input-article">
+      <article>
         <h1 class="calculator__title">Bill</h1>
         <input class="input" data-icon="money" type="text">
       </article>
 
-      <article class="calculator__select-tip">
+      <article>
         <h1 class="calculator__title">Select Tip %</h1>
         <div class="calculator__tips">
           <button class="tip-element">5%</button>
@@ -22,7 +22,7 @@
           <button class="tip-element">15%</button>
           <button class="tip-element">25%</button>
           <button class="tip-element">50%</button>
-          <button class="tip-element">Custom</button>
+          <button class="custom-element">Custom</button>
         </div>
       </article>
 

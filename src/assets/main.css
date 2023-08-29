@@ -22,6 +22,11 @@
     --fs-900: 5rem;
 }
 
+
+/* ********************************** */
+/* ************** Reset ************* */
+/* ********************************** */
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -63,6 +68,10 @@
     overflow-wrap: break-word;
   }
 
+/* ********************************** */
+/* ************** Tags ************** */
+/* ********************************** */
+
 body {
     background-color: var(--color-neutral-300);
     font-family: var(--font-family);
@@ -78,6 +87,7 @@ header {
 main {
     background-color: var(--color-neutral-000);
     display: grid;
+    grid-template-rows: 1fr 1fr;
 
     padding: 1.8em;
 
@@ -113,21 +123,48 @@ main {
     background-color: var(--color-neutral-200);
 }
 
+/* Button Tips class */
+
+.tip-element {
+    font-weight: var(--fw-bold);
+    font-size: 20px;
+    color: var(--color-neutral-000);
+    background-color: var(--color-neutral-900);
+    border-radius: 5px;
+    height: 2.5rem;
+    cursor: pointer;
+    border: none;
+}
+
+.tip-element:is(:hover, :focus) {
+    background-color: var(--color-primary-400);
+    color: var(--color-neutral-900);
+}
+
 /* ********************************** */
 /* ******* Calculator Section ******* */
 /* ********************************** */
 
 .calculator {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: grid;
-    gap: 10px;
+    gap: 20px;
 }
 
 .calculator__title {
     color: var(--color-neutral-500);
     font-size: 14px;
-    padding: 0 0 5px 0;
+    padding: 0 0 10px 0;
 }
+
+.calculator__tips {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
 
 /* ****************************** */
 /* ******* Results Section ******* */
