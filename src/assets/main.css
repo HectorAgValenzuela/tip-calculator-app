@@ -27,7 +27,7 @@
 */
 *, *::before, *::after {
     box-sizing: border-box;
-  }
+}
   /*
     2. Remove default margin
   */
@@ -62,3 +62,77 @@
   p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
   }
+
+body {
+    background-color: var(--color-neutral-300);
+    font-family: var(--font-family);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+}
+
+main {
+    background-color: var(--color-neutral-000);
+    display: grid;
+
+    padding: 1.8em;
+
+    border-radius: 1.4em 1.4em 0 0;
+}
+
+/* ********************************** */
+/* ************ Utilities *********** */
+/* ********************************** */
+
+/* Input class */
+
+.input {
+    width: 100%;
+    border: none;
+    text-align: end;
+    padding: 0.4rem;
+    font-size: 20px;
+    font-weight: var(--fw-bold);
+    color: var(--color-neutral-900);
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.input[data-icon = "money"] {
+    background: url('/src/assets/images/icon-dollar.svg') no-repeat scroll 15px;
+    background-color: var(--color-neutral-200);
+}
+
+.input[data-icon = "people"] {
+    background: url('/src/assets/images/icon-person.svg') no-repeat scroll 15px;
+    background-color: var(--color-neutral-200);
+}
+
+/* ********************************** */
+/* ******* Calculator Section ******* */
+/* ********************************** */
+
+.calculator {
+    /* border: 1px solid red; */
+    display: grid;
+    gap: 10px;
+}
+
+.calculator__title {
+    color: var(--color-neutral-500);
+    font-size: 14px;
+    padding: 0 0 5px 0;
+}
+
+/* ****************************** */
+/* ******* Results Section ******* */
+/* ****************************** */
+
+.results {
+    border: 1px solid red;
+}
