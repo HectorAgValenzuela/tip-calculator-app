@@ -87,7 +87,7 @@ header {
 main {
     background-color: var(--color-neutral-000);
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.5fr 200px;
 
     padding: 1.8em;
 
@@ -142,9 +142,14 @@ input[type=number] {
     border: none;
 }
 
-.tip-element:is(:hover, :focus) {
-    background-color: var(--color-primary-400);
+.tip-element:hover {
+    background-color: var(--color-neutral-300);
     color: var(--color-neutral-900);
+}
+
+.tip-element:focus {
+  background-color: var(--color-primary-400);
+  color: var(--color-neutral-900);
 }
 
 .input-tip {
@@ -182,5 +187,56 @@ input[type=number] {
 /* ****************************** */
 
 .results {
-    border: 1px solid red;
+    border: 1px solid red;    
+    background-color: var(--color-neutral-900);
+    padding: 1rem;
+    border-radius: 15px;
+    display: grid;
+    gap: 0.8rem;
+}
+
+.results__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.results__text-container {
+  display: grid;
+  gap: 0;
+}
+
+.results__text {
+  color: var(--color-neutral-000);
+  font-size: 12px;
+  font-weight: var(--fw-bold);
+}
+
+.results__per-person {
+  color: var(--color-neutral-400);
+  font-size: 10px;
+  font-weight: var(--fw-bold);
+}
+
+.results__amount {
+  color: var(--color-primary-400);
+  font-weight: var(--fw-bold);
+  font-size: 24px;
+}
+
+.reset-button {
+  border: none;
+  background-color: var(--color-primary-400);
+  border-radius: 5px;
+  padding: 0.05rem;
+
+  text-transform: uppercase;
+  font-weight: var(--fw-bold);
+}
+
+.reset-button:hover {
+  cursor: pointer;
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
 }

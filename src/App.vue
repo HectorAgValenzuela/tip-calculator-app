@@ -43,7 +43,7 @@
             / person
           </p>
         </div>
-        <p class="results__amount">4.27</p>
+        <p class="results__amount">$4.27</p>
       </div>
 
       <div class="results__container">
@@ -55,7 +55,7 @@
             / person
           </p>
         </div>
-        <p class="results__amount">4.27</p>
+        <p class="results__amount">$32.79</p>
       </div>
 
       <button class="reset-button">Reset</button>
