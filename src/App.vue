@@ -11,7 +11,7 @@
     <section class="calculator">
       <article>
         <h1 class="calculator__title">Bill</h1>
-        <input class="input" data-icon="money" type="text">
+        <input class="input" data-icon="money" type="number">
       </article>
 
       <article>
@@ -22,7 +22,7 @@
           <button class="tip-element">15%</button>
           <button class="tip-element">25%</button>
           <button class="tip-element">50%</button>
-          <button class="input input-tip">Custom</button>
+          <input class="input input-tip" placeholder="Custom">
         </div>
       </article>
 

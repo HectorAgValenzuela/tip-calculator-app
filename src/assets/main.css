@@ -113,6 +113,12 @@ main {
     border-radius: 5px;
 }
 
+input[type=number] { 
+  -moz-appearance: textfield;
+  appearance: textfield;
+  margin: 0; 
+}
+
 .input[data-icon = "money"] {
     background: url('/src/assets/images/icon-dollar.svg') no-repeat scroll 15px;
     background-color: var(--color-neutral-200);
@@ -142,7 +148,8 @@ main {
 }
 
 .input-tip {
-    color: var(--color-neutral-500);
+    color: var(--color-neutral-900);
+    background-color: var(--color-neutral-200);
 }
 
 /* ********************************** */
@@ -158,7 +165,7 @@ main {
 .calculator__title {
     color: var(--color-neutral-500);
     font-size: 14px;
-    padding: 0 0 10px 0;
+    padding: 0 0 8px 0;
 }
 
 .calculator__tips {
