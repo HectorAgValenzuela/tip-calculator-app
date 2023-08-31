@@ -32,29 +32,31 @@
 
     <section class="results">
 
-      <div class="results__container">
-        <div class="results__text-container">
-          <p class="results__text">
-            Tip Amount
-          </p>
-          <p class="results__per-person">
-            / person
-          </p>
+      <article class="results__amount-article">
+        <div class="results__container">
+          <div class="results__text-container">
+            <p class="results__text">
+              Tip Amount
+            </p>
+            <p class="results__per-person">
+              / person
+            </p>
+          </div>
+          <p class="results__amount">$4.27</p>
         </div>
-        <p class="results__amount">$4.27</p>
-      </div>
 
-      <div class="results__container">
-        <div class="results__text-container">
-          <p class="results__text">
-            Total
-          </p>
-          <p class="results__per-person">
-            / person
-          </p>
+        <div class="results__container">
+          <div class="results__text-container">
+            <p class="results__text">
+              Total
+            </p>
+            <p class="results__per-person">
+              / person
+            </p>
+          </div>
+          <p class="results__amount">$32.79</p>
         </div>
-        <p class="results__amount">$32.79</p>
-      </div>
+        </article>
 
       <button class="reset-button">Reset</button>
 

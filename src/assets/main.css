@@ -95,6 +95,12 @@ main {
     gap: 1.5rem;
 }
 
+input[type=number] { 
+  -moz-appearance: textfield;
+  appearance: textfield;
+  margin: 0; 
+}
+
 /* ********************************** */
 /* ************ Utilities *********** */
 /* ********************************** */
@@ -112,12 +118,6 @@ main {
     box-sizing: border-box;
     display: inline-block;
     border-radius: 5px;
-}
-
-input[type=number] { 
-  -moz-appearance: textfield;
-  appearance: textfield;
-  margin: 0; 
 }
 
 .input[data-icon = "money"] {
@@ -192,7 +192,12 @@ input[type=number] {
     padding: 1rem;
     border-radius: 15px;
     display: grid;
-    gap: 0.8rem;
+    gap: 1.8rem;
+}
+
+.results__amount-article {
+  display: grid;
+  gap: 0.5rem;
 }
 
 .results__container {
