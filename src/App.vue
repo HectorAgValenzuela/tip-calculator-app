@@ -9,7 +9,7 @@
     <section class="calculator">
       <article>
         <h1 class="calculator__title">Bill</h1>
-        <input class="input" data-icon="money" type="number">
+        <input class="input" data-icon="money" type="number" placeholder="0">
       </article>
 
       <article>
@@ -26,7 +26,7 @@
 
       <article class="calculator__input-article">
         <h1 class="calculator__title">Number of People</h1>
-        <input class="input" data-icon="people" type="number">
+        <input class="input" data-icon="people" type="number" placeholder="0">
       </article>
     </section>
 
