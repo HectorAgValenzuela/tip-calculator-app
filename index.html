@@ -8,9 +8,22 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">  
+    <style>
+      .grid {
+        min-height: 100vh;
+        display: grid;
+        align-content: center;
+      }
+      @media (max-width: 1200px) {
+        .grid {
+          grid-template-rows: 0.2fr 1fr;
+        }
+      }
+    </style>
+  </head>
   <body>
-    <div id="app"></div>
+    <div id="app" class="grid"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

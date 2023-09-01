@@ -78,9 +78,8 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    display: grid;
+    place-content: center;
     padding: 2rem;
 }
 
@@ -220,7 +219,6 @@ input[type=number] {
 /* ****************************** */
 
 .results {
-  border: 1px solid red;    
   background-color: var(--color-neutral-900);
   padding: 1rem;
   border-radius: 15px;
